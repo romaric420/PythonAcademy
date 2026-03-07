@@ -1,0 +1,4 @@
+préparer le meeting
+corriger les bugs
+former le stagiere
+coder le nouveau projet

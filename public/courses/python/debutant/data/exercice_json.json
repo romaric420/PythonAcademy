@@ -1,0 +1,52 @@
+{
+    "organisation": "InnovTech Solutions",
+    "dernière_mise_à_jour": "2025-05-10",
+    "projets": [
+        {
+            "id": 101,
+            "nom": "IA Santé",
+            "description": "Développement d'une IA pour diagnostiquer les maladies rares.",
+            "date_début": "2024-03-01",
+            "date_fin": null,
+            "statut": "en cours",
+            "membres": [
+                {
+                    "nom": "Alice Dupont",
+                    "rôle": "Chef de projet"
+                },
+                {
+                    "nom": "Karim Bellarbi",
+                    "rôle": "Développeur IA"
+                }
+            ],
+            "technologies": [
+                "Python",
+                "TensorFlow",
+                "FastAPI"
+            ]
+        },
+        {
+            "id": 102,
+            "nom": "Plateforme Éducation",
+            "description": "Plateforme en ligne pour la formation continue des enseignants.",
+            "date_début": "2023-09-15",
+            "date_fin": "2024-06-30",
+            "statut": "terminé",
+            "membres": [
+                {
+                    "nom": "Léa Martin",
+                    "rôle": "Designer UX"
+                },
+                {
+                    "nom": "Paul Nguyen",
+                    "rôle": "Développeur Frontend"
+                }
+            ],
+            "technologies": [
+                "React",
+                "Node.js",
+                "MongoDB"
+            ]
+        }
+    ]
+}

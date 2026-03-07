@@ -1,0 +1,174 @@
+{
+    "lieux": [
+        {
+            "nom": "Temple Oublié",
+            "description": "Un temple ancien envahi par la végétation, rempli de mystères et de dangers.",
+            "ressources": ["or", "pierres", "parchemins anciens"],
+            "ennemis": ["serpent géant", "golem de pierre"]
+        },
+        {
+            "nom": "Forêt Maudite",
+            "description": "Une forêt sombre et mystérieuse où des ombres dansent entre les arbres.",
+            "ressources": ["bois", "herbes médicinales", "baies empoisonnées"],
+            "ennemis": ["loup spectral", "sorcière des bois"]
+        },
+        {
+            "nom": "Cité Engloutie",
+            "description": "Une ville sous-marine oubliée, protégée par des créatures marines.",
+            "ressources": ["perles", "algues luminescentes"],
+            "ennemis": ["kraken", "gardien aquatique"]
+        },
+        {
+            "nom": "Montagnes de l'Éternité",
+            "description": "Des pics enneigés où le vent hurle comme des esprits tourmentés.",
+            "ressources": ["minerai de fer", "cristaux de glace"],
+            "ennemis": ["yéti", "aigle géant"]
+        }
+    ],
+    "personnages": [
+        {
+            "nom": "Arwen",
+            "type": "allié",
+            "force": 5,
+            "dialogue": "Je peux t'aider à explorer, mais il me faut 10 unités d'or.",
+            "cout": {"ressource": "or", "quantite": 10}
+        },
+        {
+            "nom": "Eldrin",
+            "type": "allié",
+            "force": 7,
+            "dialogue": "Je suis un forgeron expert. Donne-moi 15 unités de minerai de fer, et je renforcerai ton équipement.",
+            "cout": {"ressource": "minerai de fer", "quantite": 15}
+        },
+        {
+            "nom": "Serpent Géant",
+            "type": "ennemi",
+            "force": 8,
+            "dialogue": "Sssss... Tu ne passeras pas !"
+        },
+        {
+            "nom": "Golem de Pierre",
+            "type": "ennemi",
+            "force": 10,
+            "dialogue": "Intrus ! Tu seras écrasé sous mes poings de pierre !"
+        },
+        {
+            "nom": "Loup Spectral",
+            "type": "ennemi",
+            "force": 6,
+            "dialogue": "Grrrr... Ton âme m'appartient !"
+        },
+        {
+            "nom": "Sorcière des Bois",
+            "type": "ennemi",
+            "force": 9,
+            "dialogue": "Tu oses pénétrer mon domaine ? Prépare-toi à souffrir !"
+        },
+        {
+            "nom": "Kraken",
+            "type": "ennemi",
+            "force": 12,
+            "dialogue": "Glouglou... Tu seras englouti par les abysses !"
+        },
+        {
+            "nom": "Gardien Aquatique",
+            "type": "ennemi",
+            "force": 8,
+            "dialogue": "Nul ne trouble les eaux sacrées !"
+        },
+        {
+            "nom": "Yéti",
+            "type": "ennemi",
+            "force": 10,
+            "dialogue": "Raaaargh ! Je vais te réduire en miettes !"
+        },
+        {
+            "nom": "Aigle Géant",
+            "type": "ennemi",
+            "force": 7,
+            "dialogue": "Criiii ! Mes serres te déchiquetteront !"
+        }
+    ],
+    "ressources": [
+        {
+            "nom": "or",
+            "quantite": 20,
+            "utilite": "Acheter de l'aide ou des objets"
+        },
+        {
+            "nom": "bois",
+            "quantite": 10,
+            "utilite": "Construire des abris ou des outils"
+        },
+        {
+            "nom": "pierres",
+            "quantite": 15,
+            "utilite": "Construire des fortifications"
+        },
+        {
+            "nom": "parchemins anciens",
+            "quantite": 5,
+            "utilite": "Découvrir des secrets ou des quêtes"
+        },
+        {
+            "nom": "herbes médicinales",
+            "quantite": 8,
+            "utilite": "Restaurer des points de vie"
+        },
+        {
+            "nom": "baies empoisonnées",
+            "quantite": 3,
+            "utilite": "Utiliser contre des ennemis (risqué)"
+        },
+        {
+            "nom": "perles",
+            "quantite": 10,
+            "utilite": "Échanger contre des faveurs ou des objets rares"
+        },
+        {
+            "nom": "algues luminescentes",
+            "quantite": 5,
+            "utilite": "Éclairer des lieux sombres"
+        },
+        {
+            "nom": "minerai de fer",
+            "quantite": 12,
+            "utilite": "Forger des armes ou des armures"
+        },
+        {
+            "nom": "cristaux de glace",
+            "quantite": 6,
+            "utilite": "Créer des potions ou des enchantements"
+        }
+    ],
+    "quetes": [
+    {
+        "nom": "La Clé du Temple",
+        "lieu": "Temple Oublié",
+        "description": "Trouve la clé sacrée cachée dans le temple pour ouvrir la salle des trésors.",
+        "objectif": {"type": "collecter", "ressource": "parchemins anciens", "quantite": 5},
+        "recompense": {"type": "or", "quantite": 50}
+    },
+    {
+        "nom": "L'Herbe de Vie",
+        "lieu": "Forêt Maudite",
+        "description": "Récupère 10 unités d'herbes médicinales pour guérir un villageois malade.",
+        "objectif": {"type": "collecter", "ressource": "herbes médicinales", "quantite": 10},
+        "recompense": {"type": "force", "quantite": 3}
+    },
+    {
+        "nom": "Le Trésor Englouti",
+        "lieu": "Cité Engloutie",
+        "description": "Trouve le coffre perdu au fond des eaux et rapporte 20 perles.",
+        "objectif": {"type": "collecter", "ressource": "perles", "quantite": 20},
+        "recompense": {"type": "parchemins anciens", "quantite": 5}
+    },
+    {
+        "nom": "La Forge des Cimes",
+        "lieu": "Montagnes de l'Éternité",
+        "description": "Récupère 15 unités de minerai de fer pour forger une arme légendaire.",
+        "objectif": {"type": "collecter", "ressource": "minerai de fer", "quantite": 15},
+        "recompense": {"type": "force", "quantite": 5}
+    }
+]
+}

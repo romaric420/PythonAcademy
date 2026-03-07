@@ -1,0 +1,23 @@
+{
+    "player": {
+        "health": 85,
+        "strength": 15,
+        "inventory": {
+            "or": 57,
+            "pierres": 16,
+            "parchemins anciens": 24,
+            "bois": 5,
+            "herbes médicinales": 11,
+            "baies empoisonnées": 10,
+            "perles": 4,
+            "algues luminescentes": 2,
+            "minerai de fer": 37,
+            "cristaux de glace": 33
+        }
+    },
+    "current_location": "Temple Oublié",
+    "allies": [
+        "Arwen"
+    ],
+    "quests": []
+}
