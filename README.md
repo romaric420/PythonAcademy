@@ -30,7 +30,7 @@ public/courses/python/
 
 - Le **1er cours** de chaque module est **gratuit** (accessible sans code)
 - Tous les autres cours sont **verrouillés**
-- Bouton "Débloquer" en haut → code **Python24** → tout est débloqué
+- Bouton "Débloquer" en haut → code **** → tout est débloqué
 
 ## Configuration
 
