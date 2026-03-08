@@ -204,7 +204,7 @@ export default function PricingPage() {
               Formation complète
             </div>
             <div className="pr-card-price">
-              <span className="pr-price-amount">600</span>
+              <span className="pr-price-amount">350</span>
               <span className="pr-price-currency">€</span>
               <span className="pr-price-period">paiement unique</span>
             </div>
@@ -224,7 +224,7 @@ export default function PricingPage() {
               <div className="pr-cf"><Check size={16} /><span>Garantie satisfait ou remboursé 14 jours</span></div>
             </div>
 
-            <button className="pr-cta" onClick={() => window.location.href = "mailto:hippolytetchoffo3@gmail.com?subject=Inscription%20Formation%20Python%20-%20600%E2%82%AC&body=Bonjour%2C%0A%0AJe%20souhaite%20m%E2%80%99inscrire%20%C3%A0%20la%20formation%20Python%20compl%C3%A8te%20(600%E2%82%AC).%0A%0ANom%20%3A%20%0APr%C3%A9nom%20%3A%20%0A%0AMerci%20!"}>
+            <button className="pr-cta" onClick={() => window.location.href = "mailto:hippolytetchoffo3@gmail.com?subject=Inscription%20Formation%20Python%20-%20350%E2%82%AC&body=Bonjour%2C%0A%0AJe%20souhaite%20m%E2%80%99inscrire%20%C3%A0%20la%20formation%20Python%20compl%C3%A8te%20(350%E2%82%AC).%0A%0ANom%20%3A%20%0APr%C3%A9nom%20%3A%20%0A%0AMerci%20!"}>
               <Rocket size={18} />
               Rejoindre la formation
             </button>
@@ -313,10 +313,10 @@ export default function PricingPage() {
           <h2>Prêt à maîtriser Python ?</h2>
           <p>Rejoignez la formation et commencez votre parcours dès aujourd'hui.</p>
           <div className="pr-final-price">
-            <span className="pr-fp-amount">600€</span>
+            <span className="pr-fp-amount">350€</span>
             <span className="pr-fp-note">paiement unique · accès à vie</span>
           </div>
-          <button className="pr-cta pr-cta-final" onClick={() => window.location.href = "mailto:hippolytetchoffo3@gmail.com?subject=Inscription%20Formation%20Python%20-%20600%E2%82%AC&body=Bonjour%2C%0A%0AJe%20souhaite%20m%E2%80%99inscrire%20%C3%A0%20la%20formation%20Python%20compl%C3%A8te%20(600%E2%82%AC).%0A%0ANom%20%3A%20%0APr%C3%A9nom%20%3A%20%0A%0AMerci%20!"}>
+          <button className="pr-cta pr-cta-final" onClick={() => window.location.href = "mailto:hippolytetchoffo3@gmail.com?subject=Inscription%20Formation%20Python%20-%20350%E2%82%AC&body=Bonjour%2C%0A%0AJe%20souhaite%20m%E2%80%99inscrire%20%C3%A0%20la%20formation%20Python%20compl%C3%A8te%20(350%E2%82%AC).%0A%0ANom%20%3A%20%0APr%C3%A9nom%20%3A%20%0A%0AMerci%20!"}>
             <Rocket size={18} />
             Commencer maintenant
           </button>
