@@ -37,7 +37,7 @@ export default function HomePage() {
           <div className="anim anim-d3" style={{ marginTop: "2rem" }}>
             <button className="pr-cta" style={{ maxWidth: 340, margin: "0 auto", fontSize: "0.95rem", padding: "0.85rem" }} onClick={() => navigate("/pricing")}>
               <Sparkles size={16} />
-              Voir le tarif — 350€
+              Voir le tarif —  a partir de 350€
             </button>
           </div>
         </div>
